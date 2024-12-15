@@ -1,9 +1,10 @@
 * {
-    background-color: rgba(0, 0, 255, 0);
+    margin: 0px;
+    padding: 0px;
 }
 
 /* ------------------ Navigation bar starts --------------------------- */
-.navbar {
+#navbar {
     height: 60px;
     background-color: #0f1111;
     border: 3px solid white;
@@ -15,7 +16,7 @@
     text-decoration: none;
 }
 
-#amajon_link {
+#logo {
     color: #f08804;
     font-size: 25px;
 }
