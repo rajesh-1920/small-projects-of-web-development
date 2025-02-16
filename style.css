@@ -6,8 +6,10 @@
 /* ------------------ Navigation bar starts --------------------------- */
 #navbar {
     height: 60px;
-    background-color: #0f1111;
+    background-color: #11b7b7;
     border: 3px solid white;
+    display: flex;
+    align-items: center;
 }
 
 .option {
@@ -32,6 +34,15 @@
 
 #text_input {
     background-color: white;
+}
+
+.button {
+    text-decoration: none;
+    height: 50%;
+    width: 60px;
+    border: 2px solid black;
+    background-color: #979491;
+    align-self: center;
 }
 
 /* ------------------ Navigation bar end --------------------------- */
