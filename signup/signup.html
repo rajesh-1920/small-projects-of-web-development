@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header start -->
+    <header>
+        <p>Sign up form</p>
+    </header>
+
+    <!-- Main part -->
+    <hr>
+    <main>
+        <h3>Please fill up the form</h3>
+
+        <!-- Form to handle data submission -->
+        <form action="action.php" method="POST">
+            <input type="text" name="first_name" id="first_name" placeholder="First name" required><br><br>
+            <input type="text" name="last_name" id="last_name" placeholder="Last name" required><br><br>
+            <input type="number" name="phone_number" id="phone_number" placeholder="Phone number" required><br><br>
+            <input type="email" name="email" id="email" placeholder="Email address" required><br><br>
+
+            <div>
+                Date of birth <br>
+                <input type="date" name="date_of_birth" id="dob" required><br><br>
+            </div>
+
+            <input type="password" name="password1" id="password" placeholder="Create a password" required><br><br>
+            <input type="password" name="password2" id="repeat_password" placeholder="Repeat the password"
+                required><br><br>
+
+            <input type="submit" name="submit_button" value="Sign up">
+        </form>
+    </main>
+    <hr>
+
+    <!-- Footer part -->
+    <footer>
+        <p>footer</p>
+    </footer>
+</body>
+
+</html>
